@@ -45,7 +45,8 @@
 
     <h2>3. Almacenamiento y Seguridad de los Datos</h2>
     <p>Los datos introducidos en la Aplicación se almacenan principalmente de forma local en tu dispositivo utilizando tecnologías de persistencia (IndexedDB). Si se utiliza sincronización en la nube, los datos se transmiten mediante protocolos seguros (HTTPS).</p>
-    <p>Implementamos un sistema de anulación trazable (sin borrado destructivo) para garantizar la integridad de los datos frente a auditorías técnicas y normativas, asegurando que el historial de eventos se mantenga intacto y seguro.</p>
+    <p>Dentro del registro ganadero <strong>local de tu dispositivo</strong>, las bajas y correcciones se anotan sin borrado destructivo: un animal dado de baja o un movimiento anulado siguen figurando con su estado, porque la normativa de trazabilidad exige poder reconstruir el historial ante una auditoría. Esta anotación afecta únicamente a los datos que residen en tu dispositivo y bajo tu control, y desaparece por completo al desinstalar la Aplicación o borrar sus datos.</p>
+    <p>No se aplica a los datos del módulo de soporte alojados en nuestro servidor: esos sí se eliminan de forma definitiva cuando lo solicitas, en los términos del apartado 5.</p>
 
     <h2>4. Compartir información con terceros</h2>
     <p>No vendemos, alquilamos ni compartimos tus datos personales o los datos de tu explotación con terceros para fines comerciales o de marketing. La información solo será compartida si es requerido por ley o por las autoridades competentes (por ejemplo, auditorías de SIGGAN o BADIGEX), o si decides exportar informes para compartirlos voluntariamente.</p>
